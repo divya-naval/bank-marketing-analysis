@@ -90,3 +90,11 @@ WITH ranked AS (
 SELECT DISTINCT balance
 FROM ranked
 WHERE rnk = 2;
+
+-- 9. Calls and subscribers by month (result: may 2824 calls, 925 yes)
+SELECT month,
+       COUNT(*) AS calls,
+       SUM(CASE WHEN deposit = 'yes' THEN 1 ELSE 0 END) AS yes_count
+FROM dbo.bank_data
+GROUP BY month
+ORDER BY calls DESC;
