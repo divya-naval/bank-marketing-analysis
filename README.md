@@ -8,6 +8,8 @@ September, October, December and March convert at 82-91% but get only about 10% 
 ## Estimated impact
 If May-August calls converted like the other months (61%), the bank could get the same number of subscribers with about 2,500 fewer calls (about 23% of all 11,162 calls). This is a rough estimate.
 
+![Bank Marketing Dashboard](dashboard-bank-marketing.png)
+
 ## Recommendation
 - Call students, retired and 60+ customers first.
 - Prioritise customers who said yes in a past campaign.
